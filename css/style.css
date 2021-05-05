@@ -139,32 +139,32 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .images-parallax__js{
-    background: url("./img/logo-javascript.svg") 50% 60% no-repeat;
+    background: url("../img/logo-javascript.svg") 50% 60% no-repeat;
     background-size: 10%;
     top: 0;
 }
 
 .images-parallax__css{
-    background: url("./img/css3.svg") 35% 60% no-repeat;
+    background: url("../img/css3.svg") 35% 60% no-repeat;
     z-index: 2;
     background-size: 9%;
 }
 
 .images-parallax__html{
-    background: url("./img/html5.svg") 20% 60% no-repeat;
+    background: url("../img/html5.svg") 20% 60% no-repeat;
     z-index: 3;
     background-size: 8%;
 }
 
 .images-parallax__react{
-    background: url("./img/reactjs-icon.svg") 65% 60% no-repeat;
+    background: url("../img/reactjs-icon.svg") 65% 60% no-repeat;
     z-index: 2;
     background-size: 9%;
     top: 0;
 }
 
 .images-parallax__node{
-    background: url("./img/Node.js_logo.svg") 80% 60% no-repeat;
+    background: url("../img/Node.js_logo.svg") 80% 60% no-repeat;
     z-index: 2;
     top: 0;
     background-size: 8%;
