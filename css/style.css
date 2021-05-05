@@ -131,7 +131,15 @@ h1,h2,h3,h4,h5,h6{
 .images-parallax__css,
 .images-parallax__html,
 .images-parallax__react,
-.images-parallax__node{
+.images-parallax__node,
+.images-parallax__git,
+.images-parallax__mongo,
+.images-parallax__npm,
+.images-parallax__gulp,
+.images-parallax__redux,
+.images-parallax__sass,
+.images-parallax__typescript,
+.images-parallax__webpack{
     position: fixed;
     width: 100%;
     height: 100%;
@@ -139,39 +147,88 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .images-parallax__js{
-    background: url("../img/logo-javascript.svg") 50% 60% no-repeat;
+    background: url("../img/logo-javascript.svg") 50% 50% no-repeat;
     background-size: 10%;
     top: 0;
 }
 
 .images-parallax__css{
-    background: url("../img/css3.svg") 35% 60% no-repeat;
+    background: url("../img/css3.svg") 76% 23% no-repeat;
     z-index: 2;
-    background-size: 9%;
+    background-size: 10%;
 }
 
 .images-parallax__html{
-    background: url("../img/html5.svg") 20% 60% no-repeat;
+    background: url("../img/html5.svg") 35% 71% no-repeat;
     z-index: 3;
-    background-size: 8%;
+    background-size: 10%;
 }
 
 .images-parallax__react{
     background: url("../img/reactjs-icon.svg") 65% 60% no-repeat;
     z-index: 2;
-    background-size: 9%;
+    background-size: 10%;
     top: 0;
 }
 
 .images-parallax__node{
-    background: url("../img/Node.js_logo.svg") 80% 60% no-repeat;
+    background: url("../img/Node.js_logo.svg") 20% 40% no-repeat;
     z-index: 2;
     top: 0;
-    background-size: 8%;
+    background-size: 10%;
+}
+
+.images-parallax__git{
+    background: url("../img/Git-logo.svg") 30% 20% no-repeat;
+    z-index: 2;
+    top: 0;
+    background-size: 10%;
+}
+.images-parallax__mongo{
+    background: url("../img/MongoDB_Logo.svg") 50% 90% no-repeat;
+    z-index: 2;
+    top: 0;
+    background-size: 20%;
+}
+.images-parallax__npm{
+    background: url("../img/Npm-logo.svg") 92% 2% no-repeat;
+    z-index: 2;
+    top: 0;
+    background-size: 10%;
+}
+.images-parallax__sass{
+    background: url("../img/sass-1.svg") 60% 5% no-repeat;
+    z-index: 2;
+    top: 0;
+    background-size: 10%;
+}
+.images-parallax__gulp{
+    background: url("../img/Gulp.js_Logo.svg") 95% 45% no-repeat;
+    z-index: 2;
+    top: 0;
+    background-size: 10%;
+}
+.images-parallax__redux{
+    background: url("../img/redux.svg") 5% 85% no-repeat;
+    z-index: 2;
+    top: 0;
+    background-size: 10%;
+}
+.images-parallax__typescript{
+    background: url("../img/Typescript_logo_2020.svg") 95% 100% no-repeat;
+    z-index: 2;
+    top: 0;
+    background-size: 10%;
+}
+.images-parallax__webpack{
+    background: url("../img/webpack.svg") 2% 15% no-repeat;
+    z-index: 2;
+    top: 0;
+    background-size: 10%;
 }
 
 .content{
-    height: 100vh;
+    height: 100%;
     background-color: #fff;
     position: relative;
     z-index: 2;
@@ -184,13 +241,13 @@ h1,h2,h3,h4,h5,h6{
     top: 0;
     left: 0;
     width: 100%;
-    height: 200px;
-    transform: translate(0px, -100%);
+    height: 100px;
+    transform: translate(0px, -99%);
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 5%, #fff 100%);
 }
 
 .content__container{
-    margin-top: 200px;
+    margin-top: 75px;
 }
 
 .content__title{
