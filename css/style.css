@@ -18,6 +18,7 @@ nav,footer,header,aside{
     display: block;
 }
 html,body{
+    font-family: 'Itim', cursive;
     height:100%;
     width:100%;
     font-size:100%;
@@ -49,7 +50,7 @@ a:hover{
     text-decoration: none;
 }
 ul li{
-    list-style: none;
+    list-style: inside;
 }
 img{
     vertical-align: top;
@@ -67,7 +68,7 @@ h1,h2,h3,h4,h5,h6{
 ._container{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 50px 20px;
+    padding: 40px 20px;
 }
 
 .parallax{
@@ -126,6 +127,9 @@ h1,h2,h3,h4,h5,h6{
     top: 0;
     left: 0;
 }
+
+.str0 {stroke:#90D4C5;stroke-width:51.98;stroke-miterlimit:22.9256}
+.fil0 {fill:none}
 
 .images-parallax__js,
 .images-parallax__css,
@@ -251,12 +255,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .content__title{
-    font-size: 35px;
+    font-size: 48px;
     margin: 0px 0px 30px 0px;
 }
 
 .content__text{
-    font-size: 16px;
+    font-size: 20px;
     line-height: 150%;
 }
 
@@ -264,5 +268,49 @@ h1,h2,h3,h4,h5,h6{
     margin: 0px 0px 30px 0px;
 }
 
-.str0 {stroke:#90D4C5;stroke-width:51.98;stroke-miterlimit:22.9256}
-.fil0 {fill:none}
+.content__item{
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.content__contacts{
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.email-text{
+    word-wrap: break-word;
+}
+
+.contacts-item{
+    color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    margin-right: 32px;
+    margin-bottom: 8px;
+}
+
+.contacts-item:hover{
+    color: #000000;
+}
+
+.contacts-item img{
+    width: 50px;
+    margin-right: 8px;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills div{
+    width: 360px;
+}
+
+.skills__tech{
+    margin-bottom: 16px;
+}
