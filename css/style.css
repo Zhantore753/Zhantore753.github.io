@@ -383,3 +383,20 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     font-size: 36px;
 }
+
+@media(max-width: 600px){
+    .project__item{
+        flex-direction: column;
+    }
+
+    .project__item-left{
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        border-right: 0px;
+    }
+
+    .projects__more{
+        font-size: 24px;
+    }
+}
